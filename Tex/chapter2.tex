@@ -594,21 +594,43 @@ We know there are basis \(\{v_1, \ldots, v_n\}\) for \(V\). Hence we can constru
 \end{problem}
 
 \begin{proof}
+    Consider $V_{1} = \langle e_{1} \rangle, V_{2} = \langle e_{2} \rangle, V_{3} = \langle e_{1}+e_{2} \rangle $ \\ \\
+    then L.H.S = 2 ,but R.H.S = 3.
+\end{proof}
+\begin{problem}{20}
+    Prove that if \( V_1, V_2 \), and \( V_3 \) are subspaces of a finite-dimensional vector space, then
+
+\[
+\dim(V_1 + V_2 + V_3)
+\]
+
+\[
+= \dim V_1 + \dim V_2 + \dim V_3
+\]
+
+\[
+- \frac{\dim(V_1 \cap V_2) + \dim(V_1 \cap V_3) + \dim(V_2 \cap V_3)}{3}
+\]
+
+\[
+- \frac{\dim((V_1 + V_2) \cap V_3) + \dim((V_1 + V_3) \cap V_2) + \dim((V_2 + V_3) \cap V_1)}{3}.
+\]
+
+\end{problem}
+
+\begin{proof}
 We know that 
 
 \begin{align*}
 &\dim ((V_1 + V_2) + V_3) = \dim(V_1 + V_2) + \dim(V_3) - \dim((V_1 + V_2)\cap V_3) \\ 
 &= \dim (V_1) + \dim (V_2) + \dim (V_3) - \dim(V_1 \cap V_2) - \dim((V_1 + V_2)\cap V_3)
-\end{align*}
+\end{align*}\\
 
-Here we can get that 
+then, by considering $3\dim(V_{1}+V_{2}+V_{3})$,
+and using above equality by pairing $V_{1},V_{2},V_{3}$, we obtain the desired equality.
 
-\begin{align*}
-    \dim((V_1 + V_2)\cap V_3) &= \dim((V_1 \cap V_3) + (V_2 \cap V_3)) \\ 
-    &= \dim(V_1 \cap V_3) + \dim(V_2 \cap V_3) - \dim(V_1 \cap V_2 \cap V_3)
-\end{align*}
 
-By substituting this back, we can get the desired solution. 
+
 \end{proof}
 
 \end{document}
