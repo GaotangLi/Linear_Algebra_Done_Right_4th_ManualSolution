@@ -1,6 +1,6 @@
 # Manual Solution to "Linear Algebra Done Right 4th Edition" by Sheldon Axler
 
-This repository contains manual solutions to exercises from Sheldon Axler's *Linear Algebra Done Right* (4th Edition).
+This [repository](https://github.com/GaotangLi/Linear_Algebra_Done_Right_4th_ManualSolution) contains manual solutions to exercises from Sheldon Axler's *Linear Algebra Done Right* (4th Edition).
 
 ## Solution PDFs
 Below are the links to solution PDFs organized by chapter:
